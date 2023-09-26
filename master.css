@@ -1,0 +1,72 @@
+:root {
+    --main-transition : .3s
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+}
+*:focus {
+    outline: none;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+.page {
+    background-color: #f1f5f9;
+    min-height: 100vh;
+}
+/* Start Sidebar */
+.sidebar {
+    width: 250px;
+    box-shadow: 0 0 10px #DDD;
+}
+.sidebar > h3 {
+    margin-bottom: 50px;
+}
+.sidebar > h3::before {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    background-color: black;
+    width: 80%;
+    height: 2px;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    
+}
+.sidebar > h3::after {
+    content: "";
+}
+.sidebar ul {
+
+}
+.sidebar ul li {
+
+}
+.sidebar ul li a {
+    transition: var(--main-transition);
+    -webkit-transition: var(--main-transition);
+    -moz-transition: var(--main-transition);
+    -ms-transition: var(--main-transition);
+    -o-transition: var(--main-transition);
+    margin-bottom: 5px;
+}
+.sidebar ul li a:hover,
+.sidebar ul li a.active {
+    background-color: #f6f6f6;
+}
+.sidebar ul li a span {
+    margin-left: 10px;
+}
+/* End SideBar */
