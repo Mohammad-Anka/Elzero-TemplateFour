@@ -56,6 +56,23 @@
     -o-border-radius: 6px;
 }
 /* End Border */
+/* Start Width + Height */
+.w-full {
+    width: 100%;
+}
+/* End Width + Height */
+/* Start Components */
+.center-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.between-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* End Components */
 /* Start Media */
 @media (max-width:767px) {
     .hide-mobile {
