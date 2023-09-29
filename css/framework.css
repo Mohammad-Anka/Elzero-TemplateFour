@@ -1,82 +1,105 @@
+:root {
+  /* Colors */
+  --blue-color: #0075ff;
+  --blue-alt-color: #0d69d5;
+  --orange-color: #f59e0b;
+  --green-color: #22c55e;
+  --red-color: #f44336;
+  --gray-color: #888;
+  --main-transition: 0.3s;
+}
 /* Start Box */
 .d-flex {
-    display: flex;
+  display: flex;
 }
 .align-center {
-    align-items: center;
+  align-items: center;
 }
 .justify-content-between {
-    justify-content: space-between;
+  justify-content: space-between;
 }
 /* End Box */
 /* Start Padding + Margin */
 .p-10 {
-    padding: 10px;
+  padding: 10px;
+}
+.p-15 {
+  padding: 15px;
 }
 .p-20 {
-    padding: 20px;
+  padding: 20px;
 }
 .m-20 {
-    margin: 20;
+  margin: 20;
 }
 .mt-0 {
-    margin-top: 0;
+  margin-top: 0;
 }
 .ml-10 {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 /* End Padding + Margin */
 /* Start Color */
 .bg-white {
-    background-color: white;
+  background-color: white;
 }
 .c-black {
-    color: black;
+  color: black;
 }
 /* End Color */
 /* Start Position */
 .pos-relative {
-    position: relative;
+  position: relative;
 }
 /* End Position */
 /* Start Font */
 .txt-c {
-    text-align: center;
+  text-align: center;
 }
 .fs-14 {
-    font-size: 14px;
+  font-size: 14px;
 }
 /* End Font */
 /* Start Border */
+.default-border {
+  border: 1px solid #ccc;
+}
 .rad-6 {
-    border-radius: 6px;
-    -webkit-border-radius: 6px;
-    -moz-border-radius: 6px;
-    -ms-border-radius: 6px;
-    -o-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+.rad-10 {
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 /* End Border */
 /* Start Width + Height */
 .w-full {
-    width: 100%;
+  width: 100%;
 }
 /* End Width + Height */
 /* Start Components */
 .center-flex {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .between-flex {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 /* End Components */
 /* Start Media */
-@media (max-width:767px) {
-    .hide-mobile {
-        display: none;
-    }
+@media (max-width: 767px) {
+  .hide-mobile {
+    display: none;
+  }
 }
 /* End Media */
