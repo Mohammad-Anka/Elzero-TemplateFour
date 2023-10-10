@@ -21,6 +21,9 @@
 .space-between {
   justify-content: space-between;
 }
+.f-wrap {
+  flex-wrap: wrap;
+}
 .d-grid {
   display: grid;
 }
@@ -84,6 +87,12 @@
 .bg-blue {
   background-color: var(--blue-color);
 }
+.bg-orange {
+  background-color: var(--orange-color);
+}
+.bg-green {
+  background-color: var(--green-color);
+}
 .c-white {
   color: #fff;
 }
@@ -92,6 +101,18 @@
 }
 .c-gray {
   color: var(--gray-color);
+}
+.c-blue {
+  color: var(--blue-color);
+}
+.c-orange {
+  color: var(--orange-color);
+}
+.c-green {
+  color: var(--green-color);
+}
+.c-red {
+  color: var(--red-color);
 }
 /* End Color */
 /* Start Position */
@@ -108,6 +129,12 @@
 }
 .fs-15 {
   font-size: 15px;
+}
+.fs-25 {
+  font-size: 25px;
+}
+.fw-bold {
+  font-weight: bold;
 }
 @media (max-width: 767px) {
   .txt-c-mobile {
